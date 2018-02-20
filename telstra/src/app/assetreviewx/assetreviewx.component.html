@@ -1,0 +1,441 @@
+<div class="wrap">
+    <app-header>
+      </app-header>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+            <div class="head">
+                <div class="form-group row">
+                    <label for="smFormGroupInput" class="col-sm-2 col-form-label col-form-label-sm">Contract Package</label>
+                    <div class="col-sm-3">
+                      <input type="text" class="form-control form-control-sm" required [(ngModel)]="cntractpkg" name="L1_bf_20truck"  style="width: 100%;height: 78%" >
+                    </div>
+
+
+                    <label for="smFormGroupInput" class="col-sm-3 col-form-label col-form-label-sm">Separable Portion</label>
+                    <div class="col-sm-3">
+                      <input type="text" class="form-control form-control-sm" required [(ngModel)]="separableportion" name="L1_wtfperhr" id="L1_wtfperhr" style="margin-left:-38%; width: 100%;height: 78%" >
+                    </div>
+
+                  </div>
+                  <div class="form-group row">
+                      <label for
+            ="smFormGroupInput" class="col-sm-2 col-form-label col-form-label-sm">Work Order</label>
+                      <div class="col-sm-3">
+                        <input type="text" class="form-control form-control-sm" required [(ngModel)]="workodr" name="L1_bf_20truck" id="L1_bf_20truck" style="width: 100%;height: 78%" >
+                      </div>
+
+
+                      <label for="smFormGroupInput" class="col-sm-3 col-form-label col-form-label-sm">PMO No.</label>
+                      <div class="col-sm-3">
+                        <input type="text" class="form-control form-control-sm" required [(ngModel)]="pmono" name="L1_wtfperhr" id="L1_wtfperhr" style="margin-left:-38%; width: 100%;height: 78%" >
+                      </div>
+
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="smFormGroupInput" class="col-sm-2 col-form-label col-form-label-sm">PMO Status</label>
+                        <div class="col-sm-3">
+                          <input type="text" class="form-control form-control-sm" required [(ngModel)]="pmostatus" name="L1_bf_20truck" id="L1_bf_20truck" style="width: 100%;height: 78%" >
+                        </div>
+
+                        <label for="smFormGroupInput" class="col-sm-2 col-form-label col-form-label-sm">Asset Status</label>
+                        <div class="col-sm-3">
+                          <input type="text" class="form-control form-control-sm " required [(ngModel)]="assetstatus" name="L1_bf_20truck" id="L1_bf_20truck" style="width: 100%;height: 78%" >
+                        </div>
+
+                      </div>
+
+                    </div>
+            <!-- END OF HEADER -->
+            <div>
+              <label for="">Allocated Assets:</label>
+            </div>
+
+            <div class = "scroll">
+            <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th>Skip WO Spread ?</th>
+                    <th>Rec No.</th>
+                    <th>Asset Class</th>
+                    <th>Equip Code</th>
+                    <th>EC Lvl</th>
+                    <th>ATT</th>
+                    <th>Transfer From Equip</th>
+                    <th>Phys Qty</th>
+                    <th>FIM $</th>
+                    <th>COnstructor $</th>
+                    <th>RFU Date</th>
+                    <th>Transfer/Retire $</th>
+                    <th>Disposal Method</th>
+                    <th>LIC</th>
+                    <th>Disposal Method</th>
+
+
+
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                  </tr>
+                  <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+              <div class="row">
+                  <div class="col-sm-8">
+                    <div>
+                    <ul class="nav nav-pills">
+                      <li class="epo" ><a class="g"  data-toggle="pill" href="#home">Unallocated Items</a></li>
+                      <li class="epo" ><a class="g"  data-toggle="pill" href="#menu1">Unallocated Contract</a></li>
+                    </ul>
+                    </div>
+                    <div class="tab-content">
+                        <div id="home" class=" active mainlist tab-pane fade in active">
+                            <app-unallocated></app-unallocated>
+
+                              </div>
+
+                              <div id="menu1" class="cargolist tab-pane fade">
+                                  <app-unallocated-contract></app-unallocated-contract>
+                              </div>
+                    </div>
+
+            </div>
+
+
+                  <div class="col-sm-4 space">
+                      <form class="form-horizontal" action="/action_page.php">
+                        <div class="form-group">
+                          <label class="control-label col-sm-4 ff" for="email">Total Constructor Payments:</label>
+                          <div class="col-sm-6 ">
+                            <input type="text" class="form-control" id="email">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="control-label col-sm-4 ff" for="pwd">Approved Contract Sum</label>
+                          <div class="col-sm-6">
+                            <input type="text" class="form-control" id="pwd">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-4 ff" for="email">PMO Actual Costs</label>
+                            <div class="col-sm-6">
+                              <input type="text" class="form-control" id="email">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label class="control-label col-sm-4 ff" for="pwd">PMO Expense Values</label>
+                            <div class="col-sm-6">
+                              <input type="text" class="form-control" id="pwd">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                              <label class="control-label col-sm-4 ff" for="pwd">Constructor Payments as % of Contract Sum</label>
+                              <div class="col-sm-6">
+                                <input type="text" class="form-control" id="pwd">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-4 ff" for="pwd">Allocated FIM as % of Total FIM value</label>
+                                <div class="col-sm-6">
+                                  <input type="text" class="form-control" id="pwd">
+                                </div>
+                              </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">unallocated-contract</label>
+                              </div>
+                              <div class="checkbox">
+                                <label><input type="checkbox" value="">AM Flagged Errors</label>
+                              </div>
+                              <div class="checkbox disabled">
+                                <label><input type="checkbox" value="" disabled>System Flagged Errors</label>
+                              </div>
+                        </form>
+
+                  </div>
+                </div>
+          </div>
+
+      <div class="col-sm-3">
+        <div class="chk">
+
+          <div class="checkbox" *ngIf="Login">
+          <label><input type="checkbox" checked value="login" >Log in to IPaC application
+          </label>
+        </div>
+          <div class="checkbox" *ngIf="!Login">
+            <label><input type="checkbox" value="login" >Log in to IPaC application
+            </label>
+          </div>
+        <div class="checkbox" *ngIf="IPaCassetmodule">
+          <label><input type="checkbox" checked={{IPaCassetmodule}} value="">Open IPaC asset module
+          </label>
+        </div>
+          <div class="checkbox" *ngIf="!IPaCassetmodule">
+            <label><input type="checkbox"  value="">Open IPaC asset module
+            </label>
+          </div>
+        <div class="checkbox" *ngIf="Portfolio">
+            <label><input type="checkbox" checked={{Portfolio}} value="">Select Portfolio
+            </label>
+          </div>
+          <div class="checkbox" *ngIf="!Portfolio">
+            <label><input type="checkbox" value="">Select Portfolio
+            </label>
+          </div>
+          <div class="checkbox" *ngIf="IPaCordersummary">
+            <label><input type="checkbox" checked={{IPaCordersummary}} value="">Open IPaC order summary module
+            </label>
+          </div>
+          <div class="checkbox" *ngIf="!IPaCordersummary">
+            <label><input type="checkbox" value="">Open IPaC order summary module
+            </label>
+          </div>
+          <div class="checkbox" *ngIf="Assetstatus">
+              <label><input type="checkbox" checked={{Assetstatus}} value="">Check Asset status
+              </label>
+            </div>
+          <div class="checkbox" *ngIf="!Assetstatus">
+            <label><input type="checkbox" value="">Check Asset status
+            </label>
+          </div>
+          <div class="checkbox" *ngIf="Activitytype">
+              <label><input type="checkbox" checked={{Activitytype}} value="">Check on Activity type
+              </label>
+            </div>
+          <div class="checkbox" *ngIf="!Activitytype">
+            <label><input type="checkbox" value="">Check on Activity type
+            </label>
+          </div>
+            <div class="checkbox" *ngIf="CAPEX">
+                <label><input type="checkbox" checked={{CAPEX}} value="">Check CAPEX/OPEX Percentage
+                </label>
+              </div>
+          <div class="checkbox" *ngIf="!CAPEX">
+            <label><input type="checkbox" value="">Check CAPEX/OPEX Percentage
+            </label>
+          </div>
+              <div class="checkbox" *ngIf="NDPM">
+                <label><input type="checkbox" checked={{NDPM}} value="">Extract project brief from NDPM/EDMS
+                </label>
+              </div>
+          <div class="checkbox" *ngIf="!NDPM">
+            <label><input type="checkbox"  value="">Extract project brief from NDPM/EDMS
+            </label>
+          </div>
+              <div class="checkbox" *ngIf="Reviewprojectbrief">
+                  <label><input type="checkbox" checked={{Reviewprojectbrief}} value="">Review/Analyse project brief
+                  </label>
+                </div>
+          <div class="checkbox" *ngIf="!Reviewprojectbrief">
+            <label><input type="checkbox" value="">Review/Analyse project brief
+            </label>
+          </div>
+                <div class="checkbox" *ngIf="Costsheet">
+                  <label><input type="checkbox" checked={{Costsheet}} value="">Analyse Cost sheet
+</label>
+                </div>
+          <div class="checkbox" *ngIf="!Costsheet">
+            <label><input type="checkbox" value="">Analyse Cost sheet
+            </label>
+          </div>
+                <div class="checkbox" *ngIf="Materialdetails">
+                    <label><input type="checkbox" checked={{Materialdetails}} value="">Check Material details
+</label>
+                  </div>
+          <div class="checkbox" *ngIf="!Materialdetails">
+            <label><input type="checkbox" value="">Check Material details
+            </label>
+          </div>
+                  <div class="checkbox" *ngIf="ItemMapping">
+                    <label><input type="checkbox" checked={{ItemMapping}} value="">Check with !AMG group for Serial/Item Mapping if any
+</label>
+                  </div>
+          <div class="checkbox" *ngIf="!ItemMapping">
+            <label><input type="checkbox" value="">Check with !AMG group for Serial/Item Mapping if any
+            </label>
+          </div>
+                  <div class="checkbox" *ngIf="DBORS">
+                      <label><input type="checkbox" checked={{DBORS}} value="">Check in DBORS
+</label>
+                    </div>
+          <div class="checkbox" *ngIf="!DBORS">
+            <label><input type="checkbox" value="">Check in DBORS
+            </label>
+          </div>
+                    <div class="checkbox" *ngIf="Missinginformation">
+                      <label><input type="checkbox" checked={{Missinginformation}} value="">Contact NC's for Missing information
+</label>
+                    </div>
+          <div class="checkbox" *ngIf="!Missinginformation">
+            <label><input type="checkbox" value="">Contact NC's for Missing information
+            </label>
+          </div>
+                    <div class="checkbox" *ngIf="assetclass">
+                        <label><input type="checkbox" checked={{assetclass}} value="">Update asset class in asset file
+</label>
+                      </div>
+          <div class="checkbox" *ngIf="!assetclass">
+            <label><input type="checkbox" value="">Update asset class in asset file
+            </label>
+          </div>
+                      <div class="checkbox" *ngIf="equipmentcodes">
+                        <label><input type="checkbox" checked={{equipmentcodes}} value="">Update  equipment codes
+</label>
+                      </div>
+          <div class="checkbox" *ngIf="!equipmentcodes">
+            <label><input type="checkbox" value="">Update  equipment codes
+            </label>
+          </div>
+                      <div class="checkbox" *ngIf="UpdateActivity">
+                          <label><input type="checkbox" checked={{UpdateActivity}} value="">Update Activity Type
+</label>
+                        </div>
+          <div class="checkbox" *ngIf="!UpdateActivity">
+            <label><input type="checkbox"  value="">Update Activity Type
+            </label>
+          </div>
+                        <div class="checkbox" *ngIf="Transferdetails">
+                          <label><input type="checkbox" checked={{Transferdetails}} value="">Check the Transfer details, if any
+</label>
+                        </div>
+          <div class="checkbox" *ngIf="!Transferdetails">
+            <label><input type="checkbox" value="">Check the Transfer details, if any
+            </label>
+          </div>
+                        <div class="checkbox" *ngIf="physicalquantity">
+                            <label><input type="checkbox" checked={{physicalquantity}} value="">Update physical quantity
+</label>
+                          </div>
+          <div class="checkbox" *ngIf="!physicalquantity">
+            <label><input type="checkbox"  value="">Update physical quantity
+            </label>
+          </div>
+                          <div class="checkbox" *ngIf="FIMValue">
+                            <label><input type="checkbox" checked={{FIMValue}} value="">Update FIM Value, If any
+</label>
+                          </div>
+          <div class="checkbox" *ngIf="!FIMValue">
+            <label><input type="checkbox"  value="">Update FIM Value, If any
+            </label>
+          </div>
+                          <div class="checkbox" *ngIf="RFUdate">
+                              <label><input type="checkbox" checked={{RFUdate}} value="">Validate the Correct RFU date
+</label>
+                            </div>
+          <div class="checkbox" *ngIf="!RFUdate">
+            <label><input type="checkbox" value="">Validate the Correct RFU date
+            </label>
+          </div>
+                            <div class="checkbox" *ngIf="Transfer">
+                              <label><input type="checkbox" checked={{Transfer}} value="">Update Transfer/Retire value, if any recovery
+</label>
+                            </div>
+          <div class="checkbox" *ngIf="!Transfer">
+            <label><input type="checkbox"  value="">Update Transfer/Retire value, if any recovery
+            </label>
+          </div>
+                            <div class="checkbox" *ngIf="Disposalmethod">
+                                <label><input type="checkbox" checked={{Disposalmethod}} value="">Update Disposal method, if any
+</label>
+                              </div>
+          <div class="checkbox" *ngIf="!Disposalmethod">
+            <label><input type="checkbox"  value="">Update Disposal method, if any
+            </label>
+          </div>
+                              <div class="checkbox" *ngIf="LIC" >
+                                <label><input type="checkbox" checked={{LIC}} value="">Input LIC code if required
+</label>
+                              </div>
+          <div class="checkbox" *ngIf="!LIC">
+            <label><input type="checkbox" value="">Input LIC code if required
+            </label>
+          </div>
+                              <div class="checkbox" *ngIf="PropertyLease">
+                                  <label><input type="checkbox" checked={{PropertyLease}} value="">Input Property Lease ID if any
+</label>
+                                </div>
+          <div class="checkbox" *ngIf="!PropertyLease">
+            <label><input type="checkbox" value="">Input Property Lease ID if any
+            </label>
+          </div>
+                                <div class="checkbox" *ngIf="unallocated">
+                                  <label><input type="checkbox" checked={{unallocated}} value="">Allocated the unallocated  items to correct asset class
+</label>
+                                </div>
+          <div class="checkbox" *ngIf="!unallocated">
+            <label><input type="checkbox" value="">Allocated the unallocated  items to correct asset class
+            </label>
+          </div>
+								<div class="checkbox" *ngIf="notes">
+                                  <label><input type="checkbox" checked={{notes}} value="">Add notes, if any
+
+</label>
+                                </div>
+          <div class="checkbox" *ngIf="!notes">
+            <label><input type="checkbox"  value="">Add notes, if any
+
+            </label>
+          </div>
+
+
+
+      </div>
+      </div>
+
+
+    </div>
+  <!--<div class="form">-->
+      <!--<br>-->
+    <!--<div>-->
+      <!--<input type="file" name="sampleFile" >-->
+
+    <!--</div>-->
+      <!--<div>-->
+        <!--<input type="submit" name="sampleFile" value="upload" (click)="upload();" >-->
+      <!--</div>-->
+    <!--<br>-->
+      <!--<div>-->
+        <!--<input type="button" value="compare" (click)="diff();">-->
+      <!--</div>-->
+
+  <!--</div>-->
+  <!--<div class="form-group">-->
+    <!--<input type="file" id="selectFile" name="selectFile" class="btn btn-success">-->
+    <!--<input type="button" class="btn btn-primary" (click)="uploadFiles()" value="Upload Files">-->
+  <!--</div>-->
+ <div class="iframe">
+  <iframe src="http://localhost:8080/" frameBorder="0"></iframe>
+ </div>
+
+</div>
+
+</div>

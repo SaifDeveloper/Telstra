@@ -1,0 +1,41 @@
+<div class="container">
+            <br> <div class="row">
+              <div class="col-md-6">
+            <canvas baseChart
+            
+                  [datasets]="barChartData3"
+                  [labels]="barChartLabels3"
+                  [options]="barChartOptions3"
+                  [legend]="barChartLegend3"
+                  [chartType]="barChartType3"
+                  [colors]="barChartColors"
+                  (chartHover)="chartHovered($event)"
+                  (chartClick)="chartClicked($event)"></canvas>
+            </div>
+            <div class="col-md-6">
+              <canvas baseChart
+            
+                    [datasets]="barChartData4"
+                    [labels]="barChartLabels4"
+                    [options]="barChartOptions4"
+                    [legend]="barChartLegend4"
+                    [chartType]="barChartType4"
+                    [colors]="barChartColors2"
+                    (chartHover)="chartHovered($event)"
+                    (chartClick)="chartClicked($event)"></canvas>
+              </div>
+             </div>
+             <br><br>
+             <div class="graph">
+            <canvas baseChart width="400" height="300"
+            [datasets]="lineChartData"
+            [labels]="lineChartLabels"
+            [labels]="lineChartLabels1"
+            [options]="lineChartOptions"
+            [colors]="lineChartColors"
+            [legend]="lineChartLegend"
+            [chartType]="lineChartType"
+            (chartHover)="chartHovered($event)"
+            (chartClick)="chartClicked($event)"></canvas>
+            </div>
+             </div>

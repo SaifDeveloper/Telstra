@@ -1,0 +1,34 @@
+.container{
+    background-color:white;
+    width: 1250px;
+}
+.head{
+    margin-top: 20px;
+}
+.space{
+    margin-top: 20px;
+}
+.ff{
+    text-align: left;
+}
+.scroll{
+   
+    overflow-x: auto;
+    margin-bottom: 30px;
+}
+.resize{
+    width: 900px;
+    margin-right: 516px;
+}
+.chk{
+    float: right;
+    font-size: 16px;
+    
+}
+.checkbox label{
+    padding-bottom: 12px;
+}
+.table th
+{
+   vertical-align: middle
+}

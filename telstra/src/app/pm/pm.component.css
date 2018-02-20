@@ -1,0 +1,88 @@
+.container{
+    background-color:white;
+    width: 1250px;
+}
+.bc{
+    margin-left: 50px;
+}
+.cpo{
+    margin-left: 50px;
+    margin-right:50px
+}
+hr{
+    border-color:#4f3542;
+}
+.fields{
+    margin-left: 20px;
+}
+
+.btn{
+float: right;
+border-radius:40px;
+width: 150px;
+background-color: #4f3542;
+border-color: #4f3542;
+color: white;
+}
+.left{
+    width:95%;
+}
+.right{
+    width: 95%;
+    float: left;
+}
+.left1{
+    width:90%;
+}
+.right1{
+    width:90%;
+}
+.center{
+    width: 99%;
+}
+.val{
+    width:100%;
+
+}   
+.unit{
+    width:90%
+} 
+table,th ,td{
+    border: 1px solid #4f3542;
+    border-collapse: collapse;
+    text-align: center;
+
+} 
+.btn{
+    float: right;
+    border-radius:40px;
+    width: 160px;
+    background-color: #4f3542;
+    border-color:#4f3542;
+    }
+    div.scroll {
+        display:block;
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 0.5em;
+        border-style: inset;
+        border-width: 1px;
+        width: 500px;
+        height: 650px;
+        overflow-y: scroll;
+        width: 100%;
+        font-size: 14px;
+    }  
+    table,th ,td{
+        border: 1px solid #4f3542;
+        border-collapse: collapse;
+        text-align: center;
+    }
+    .attrvalue{
+         
+        text-align: left;
+         background-color: #ffffff;
+          border: solid 1px;
+           padding-right: 5px;
+           padding-left: 0px
+    }

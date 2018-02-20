@@ -1,0 +1,331 @@
+<app-header>
+</app-header>
+<div class="container">
+
+    <div class="cpo">
+        <br>
+        <h3><b>Project Description</b></h3>
+        <hr>
+        <form>
+            <div class="fields">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label for="title"> Title/Description</label>
+                    </div>
+                    <div class="col-sm-10">
+                        <input type="text" name="title"  [(ngModel)]="po_no" style="width:98%"class="left form-control" placeholder="">
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label for="title">Work Location(s):</label>
+                    </div>
+                    <div class="col-sm-10">
+                        <input type="text" name="title"  [(ngModel)]="po_no" style="width:98%"class="left form-control" placeholder="">
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-sm-2"><br>
+                        <label for="requester">Planning Numbers:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <label for="title">IP</label>
+                        <input type="text" name="title"  [(ngModel)]="po_no" class="left form-control" placeholder="">
+                    </div>
+                    <div class="col-sm-3">
+                        <label for="title" style="margin-left:55px">Design ID</label>
+                        <input type="text" name="title"  [(ngModel)]="po_no" style="margin-left:50px"class="left form-control" placeholder="">
+                    </div>
+                    <div class="col-sm-3">
+                        <label for="title" style="margin-left:95px">PM Order</label>
+                        <input type="text" name="title"  [(ngModel)]="po_no" style="margin-left:90px"class="left form-control" placeholder="">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-2"><br>
+                        <label for="shiptouser">Project Numbers:</label>
+
+                    </div>
+                    <div class="col-sm-2">
+                        <label for="title">WP</label>
+                        <input type="text" name="title"  [(ngModel)]="po_no" class="left form-control" placeholder="">
+                    </div>
+                    <div class="col-sm-2">
+                        <label for="title"style="margin-left:65px">SP</label>
+                        <input type="text" name="title"  [(ngModel)]="po_no" style="margin-left:60px"class="left form-control" placeholder="">
+                    </div>
+                    <div class="col-sm-2">
+                        <label for="title"style="margin-left:115px">WO</label>
+                        <input type="text" name="title"  [(ngModel)]="po_no" style="margin-left:110px"class="left form-control" placeholder="">
+                    </div>
+                    <div class="col-sm-2">
+                        <label for="title" style="margin-left:117%">Network</label>
+                        <input type="text" name="title"  [(ngModel)]="po_no" style="margin-left:115%" class="left form-control" placeholder="">
+                    </div>
+
+                </div><br>
+                <div class="row">
+                        <div class="col-sm-2">
+                            <label for="title">Labour Booking Operations Number</label>
+                        </div>
+                        <div class="col-sm-10">
+                            <input type="text" name="title"  [(ngModel)]="po_no" style="width:98%"class="left form-control" placeholder="">
+                        </div>
+                    </div><br>
+                    <div class="row">
+                            <div class="col-sm-2">
+                                <label for="title"> IntegralPLUS WBS</label>
+                            </div>
+                            <div class="col-sm-10">
+                                <input type="text" name="title"  [(ngModel)]="po_no" style="width:98%"class="left form-control" placeholder="">
+                            </div>
+                        </div><br>
+                        <div class="row">
+                                <div class="col-sm-2">
+                                    <label for="title">Contractor ID Number (CIN Auth)</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <input type="text" name="title"  [(ngModel)]="po_no" style="width:98%"class="left form-control" placeholder="">
+                                </div>
+                            </div><br>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label for="orderdate">Remarks:</label><br>
+                    </div>
+                    <div class="col-sm-10">
+                        <textarea  name="remarks" [(ngModel)]="remarks" style="margin-left:-5px"class="center form-control" placeholder=""></textarea>
+                    </div>
+                </div><br>
+
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label for="supplier">FastTrack Status:</label>
+                    </div>
+                    <div class="col-sm-4">
+
+                        <input type="text" name="supplier"  [(ngModel)]="supplier" class="right form-control" data-date-inline-picker="false"
+                            data-date-open-on-focus="true" placeholder="" />
+
+                    </div>
+                    <div class="col-sm-2">
+                        <label for="status">FastTrack Reason:</label>
+                    </div>
+                    <div class="col-sm-4">
+
+                        <input type="text" name="status"  [(ngModel)]="status" style="margin-left:4px"class="right form-control" placeholder="">
+                    </div>
+                </div><br>
+
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label for="trans_status">Target Construction Date</label>
+                    </div>
+                    <div class="col-sm-10">
+                        <input type="date" name="trans_status"  [(ngModel)]="trans_status" class="right form-control" style="width:98.5%"data-date-inline-picker="false"
+                            data-date-open-on-focus="true" placeholder="" /><br>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <label for="importer">Designer:</label>
+                        <input type="text" name="items"  [(ngModel)]="items" class="left form-control" placeholder="">
+                    </div>
+                    <div class="col-sm-4">
+                        <label for="forwarder">Phone</label><br>
+                        <input type="text" name="total"  [(ngModel)]="total" class="right form-control" data-date-inline-picker="false" data-date-open-on-focus="true"
+                            placeholder="" /><br>
+                    </div>
+                    <div class="col-sm-4">
+                        <label for="forwarder">Fax/Mob:</label><br>
+                        <input type="text" name="total"  [(ngModel)]="total" style="margin-left:5px"class="right form-control" data-date-inline-picker="false" data-date-open-on-focus="true"
+                            placeholder="" /><br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <label for="importer">TM</label>
+                        <input type="text" name="items"  [(ngModel)]="items" class="left form-control" placeholder="">
+                    </div>
+                    <div class="col-sm-4">
+                        <label for="forwarder">Phone</label><br>
+                        <input type="text" name="total"  [(ngModel)]="total" class="right form-control" data-date-inline-picker="false" data-date-open-on-focus="true"
+                            placeholder="" /><br>
+                    </div>
+                    <div class="col-sm-4">
+                        <label for="forwarder">Fax/Mob:</label><br>
+                        <input type="text" name="total"  [(ngModel)]="total" style="margin-left:5px"class="right form-control" data-date-inline-picker="false" data-date-open-on-focus="true"
+                            placeholder="" /><br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <label for="importer">RPM</label>
+                        <input type="text" name="items"  [(ngModel)]="items" class="left form-control" placeholder="">
+                    </div>
+                    <div class="col-sm-4">
+                        <label for="forwarder">Phone</label><br>
+                        <input type="text" name="total"  [(ngModel)]="total" class="right form-control" data-date-inline-picker="false" data-date-open-on-focus="true"
+                            placeholder="" /><br>
+                    </div>
+                    <div class="col-sm-4">
+                        <label for="forwarder">Fax/Mob:</label><br>
+                        <input type="text" name="total"  [(ngModel)]="total" style="margin-left:5px"class="right form-control" data-date-inline-picker="false" data-date-open-on-focus="true"
+                            placeholder="" /><br>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label for="importer">Verified as Correct by:</label>
+                    </div>
+                    <div class="col-sm-5">
+                        <input type="text" name="items"  [(ngModel)]="items" class="left form-control" placeholder="">
+                    </div>
+                    <div class="col-sm-5">
+                        <input type="text" name="total"  [(ngModel)]="total" class="right form-control" style="margin-left:10px"data-date-inline-picker="false" data-date-open-on-focus="true"
+                            placeholder="" /><br>
+                    </div>
+
+                </div><br>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label for="importer">Distribution Authorised by:</label>
+                    </div>
+                    <div class="col-sm-5">
+                        <input type="text" name="items"  [(ngModel)]="items" class="left form-control" placeholder="">
+                    </div>
+                    <div class="col-sm-5">
+                        <input type="text" name="total"  [(ngModel)]="total" class="right form-control" style="margin-left:10px" data-date-inline-picker="false" data-date-open-on-focus="true"
+                            placeholder="" /><br>
+                    </div>
+
+                </div><br>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label for="title"> Design Origin</label>
+                    </div>
+                    <div class="col-sm-10">
+                        <input type="text" name="title"  [(ngModel)]="po_no" style="width:99%"class="left form-control" placeholder="">
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label for="title">Customer Benefit Statement</label>
+                    </div>
+                    <div class="col-sm-10">
+                        <input type="text" name="title"  [(ngModel)]="po_no" class="left form-control" style="width:99%" placeholder="">
+                    </div>
+                </div>
+                <br>
+
+<div>
+        <label for="title">	Purpose & Scope</label><br>
+        <table style="width: 100%; border-collapse: collapse;">
+                <thead >
+                  <tr style="height: 10px;">
+                    <td style="width:10%" class="Columnname">Site Name</td>
+                    <td style="width:10%" class="Columnname">Action</td>
+                    <td style="width:30%" class="Columnname">Descrption</td>
+                  </tr>
+                </thead>
+                <tbody style="height: 8px; color: #333;">
+            
+                  <tr style="height: 10px;">
+                    <td class="attrvalue">
+                        <input type="text" style="width: 100%;"   id="siteName" name="siteName" ngModel>
+                        
+                      <!-- <input style="width: 100%;" type="file" name="tobeuploaded" /> -->
+                    </td>
+                    <td class="attrvalue">
+                            <input type="text" style="width: 100%;"   id="action" name="action" ngModel >
+                            
+                          <!-- <input style="width: 100%;" type="file" name="tobeuploaded" /> -->
+                        </td>
+                    <td class="attrvalue">
+                      <input type="text" ngModel name="description" id="description" style="width:100%;"></td>
+                  </tr>
+                </tbody>
+              </table>
+</div><br>
+<br>
+<div>
+<button type="submit" value="upload" id="file_upload" class="btn" > Save</button>
+</div>
+<br>
+<br>
+<br>
+<div>
+        <!-- <label for="title">	Purpose & Scope</label><br> -->
+        <table style="width: 100%; border-collapse: collapse;">
+                <thead >
+                  <tr style="height: 10px;">
+                    <td style="width:10%" class="Columnname">Site Name</td>
+                    <td style="width:10%" class="Columnname">Action</td>
+                    <td style="width:30%" class="Columnname">Descrption</td>
+                  </tr>
+                </thead>
+                <tbody style="height: 8px; color: #333;">
+            
+                  <tr style="height: 10px;">
+                    <td class="attrvalue">
+                            Kent St Level 10
+                        <!-- <input type="text" style="width: 100%;"   id="siteName" name="siteName" ngModel> -->
+                        
+                      <!-- <input style="width: 100%;" type="file" name="tobeuploaded" /> -->
+                    </td>
+                    <td class="attrvalue">Install 
+                            <!-- <input type="text" style="width: 100%;"   id="action" name="action" ngModel >
+                             -->
+                          <!-- <input style="width: 100%;" type="file" name="tobeuploaded" /> -->
+                        </td>
+                    <td class="attrvalue">
+                            2 x Rittal TS8 racks with each rack to be equipped with a Kerem (2 x 8 position PDP), front to rear trays & a 72 fibre splice OEF panels
+                            (Include HD splitter subracks)
+                            
+                      <!-- <input type="text" ngModel name="description" id="description" style="width:100%;"></td> -->
+                  </tr>
+                  <tr style="height: 10px;">
+                        <td class="attrvalue">
+                                Kent St Level 10
+                            <!-- <input type="text" style="width: 100%;"   id="siteName" name="siteName" ngModel> -->
+                            
+                          <!-- <input style="width: 100%;" type="file" name="tobeuploaded" /> -->
+                        </td>
+                        <td class="attrvalue">Install 
+                                <!-- <input type="text" style="width: 100%;"   id="action" name="action" ngModel >
+                                 -->
+                              <!-- <input style="width: 100%;" type="file" name="tobeuploaded" /> -->
+                            </td>
+                        <td class="attrvalue">
+                                Install 2 x 72 fibre tie cables from each new Rittal rack to the OFF rack
+                                
+                          <!-- <input type="text" ngModel name="description" id="description" style="width:100%;"></td> -->
+                      </tr>
+                      <tr style="height: 10px;">
+                            <td class="attrvalue">
+                                    Kent St Level 10
+                                <!-- <input type="text" style="width: 100%;"   id="siteName" name="siteName" ngModel> -->
+                                
+                              <!-- <input style="width: 100%;" type="file" name="tobeuploaded" /> -->
+                            </td>
+                            <td class="attrvalue">Install 
+                                    <!-- <input type="text" style="width: 100%;"   id="saction" name="action" ngModel >
+                                     -->
+                                  <!-- <input style="width: 100%;" type="file" name="tobeuploaded" /> -->
+                                </td>
+                            <td class="attrvalue">
+                                    2 x VIPRION 2400 elements (KTIJ-K-001 & KTIJ-K-002)
+                              <!-- <input type="text" ngModel name="description" id="description" style="width:100%;"></td> -->
+                          </tr>
+                </tbody>
+              </table>
+</div>
+
+            </div>
+        </form>
+    </div>
+</div>

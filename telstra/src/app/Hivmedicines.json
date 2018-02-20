@@ -1,0 +1,107 @@
+[{
+  "hiv": "HIV 1+2 - Uni-gold HIV Kit - accessories included -20 tests",
+  "stockin": "220",
+  "stockout": "88",
+  "expirydate": "2022-12-22",
+  "unitprice": "$1233t",
+  "total": "$12345"
+},
+{
+  "hiv": "Darunavir 600mg tablet 60",
+  "stockin": "120",
+  "stockout": "88",
+  "expirydate": "2019-02-22",
+  "unitprice": "$1233t",
+  "total": "$12345"
+},
+{
+  "hiv": "Ritonavir 100mg tablet 60",
+  "stockin": "10",
+  "stockout": "88",
+  "expirydate": "2018-08-18",
+  "unitprice": "$1233t",
+  "total": "$12345"
+},
+{
+  "hiv": "Raltegravir 400mg tablet 60",
+  "stockin": "130",
+  "stockout": "88",
+  "expirydate": "2020-04-02",
+  "unitprice": "$1233t",
+  "total": "$12345"
+},
+{
+  "hiv": "Efavirenz 600mg tablet 30",
+  "stockin": "190",
+  "stockout": "88",
+  "expirydate": "2021-02-18",
+  "unitprice": "$1233t",
+  "total": "$12345"
+},
+{
+  "hiv": "Lamivudine/Nevirapine/Zidovudine 150/200mg/300mg tablet 60",
+  "stockin": "200",
+  "stockout": "88",
+  "expirydate": "2025-02-25",
+  "unitprice": "$1233t",
+  "total": "$12345"
+},
+{
+  "hiv": "Lopinavir/Ritonavir 100/25mg tablet 120",
+  "stockin": "8",
+  "stockout": "88",
+  "expirydate": "2026-10-12",
+  "unitprice": "$1233t",
+  "total": "$12345"
+},
+{
+  "hiv": "Atazanavir/Ritonavir 300/100mg tablet 30",
+  "stockin": "220",
+  "stockout": "88",
+  "expirydate": "2022-06-06",
+  "unitprice": "$1233t",
+  "total": "$12345"
+},
+{
+  "hiv": "Lamivudine/Tenofovir 300/300mg tablet 30",
+  "stockin": "230",
+  "stockout": "88",
+  "expirydate": "2018-02-15",
+  "unitprice": "$1233t",
+  "total": "$12345"
+},
+{
+  "hiv": "Nevirapine 200mg tablet 60",
+  "stockin": "10",
+  "stockout": "88",
+  "expirydate": "2028-02-22",
+  "unitprice": "$1233t",
+  "total": "$12345"
+},
+{
+  "hiv": "Lamivudine/Zidovudine 30/60mg tablet dispersible 60",
+  "stockin": "133",
+  "stockout": "88",
+  "expirydate": "2018-02-22",
+  "unitprice": "$1233t",
+  "total": "$12345"
+},
+
+{
+  "hiv": "Male condom 53 mm - plain - pack of 144",
+  "stockin": "114",
+  "stockout": "88",
+  "expirydate": "2021-09-22",
+  "unitprice": "$1233t",
+  "total": "$12345"
+},
+
+{
+  "hiv": "Efavirenz/Lamivudine/Tenofovir 600/300/300mg tablet 30",
+  "stockin": "103",
+  "stockout": "88",
+  "expirydate": "2018-02-22",
+  "unitprice": "$1233t",
+  "total": "$12345"
+}
+]

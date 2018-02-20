@@ -1,0 +1,26 @@
+.container{
+    background-color:white;
+    width: 1250px;
+}
+.head{
+    margin-top: 20px;
+}
+.space{
+    margin-top: 20px;
+}
+.ff{
+    text-align: left;
+}
+.scroll{
+   
+    overflow-x: auto;
+}
+.resize{
+    width: 900px;
+    margin-right: 516px;
+}
+.checklist{
+    background-color: #fff;
+    width:300px;
+    margin-left: 1066px;
+}

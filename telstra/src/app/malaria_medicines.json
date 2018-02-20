@@ -1,0 +1,98 @@
+[{
+  "hiv": "Artemether/Lumefantrine 20/120mg 18 tablet 30 blister",
+  "stockin": "22",
+  "stockout": "28",
+  "expirydate": "2022-12-22",
+  "unitprice": "$1233t",
+  "total": "$12345"
+},
+{
+  "hiv": "Artesunate 60mg powder for solution for injection - 1 vial",
+  "stockin": "120",
+  "stockout": "88",
+  "expirydate": "2019-02-22",
+  "unitprice": "$1233t",
+  "total": "$12345"
+},
+{
+  "hiv": "Artemether/Lumefantrine 20/120mg 6 tablet dispersible 30 blister",
+  "stockin": "888",
+  "stockout": "118",
+  "expirydate": "2018-08-22",
+  "unitprice": "$1233t",
+  "total": "$12345"
+},
+{
+  "hiv": "Artemether/Lumefantrine 20/120mg 18 tablet 30 blister",
+  "stockin": "130",
+  "stockout": "88",
+  "expirydate": "2020-04-02",
+  "unitprice": "$1233t",
+  "total": "$12345"
+},
+{
+  "hiv": "Artemether/Lumefantrine 20/120mg 12 tablet dispersible 30 blister",
+  "stockin": "190",
+  "stockout": "88",
+  "expirydate": "2021-02-18",
+  "unitprice": "$1233t",
+  "total": "$12345"
+},
+{
+  "hiv": "Artemether/Lumefantrine 20/120mg 24 tablet 30 blister",
+  "stockin": "20",
+  "stockout": "58",
+  "expirydate": "2025-02-25",
+  "unitprice": "$1233t",
+  "total": "$12345"
+},
+{
+  "hiv": "Artesunate/Amodiaquine 25/67.5mg 3 tablet 25 blister",
+  "stockin": "188",
+  "stockout": "28",
+  "expirydate": "2026-10-12",
+  "unitprice": "$1233t",
+  "total": "$12345"
+},
+{
+  "hiv": "Artesunate/Amodiaquine 25/67.5mg 3 tablet 25 blister",
+  "stockin": "220",
+  "stockout": "88",
+  "expirydate": "2022-06-06",
+  "unitprice": "$1233t",
+  "total": "$12345"
+},
+{
+  "hiv": "Artesunate/Amodiaquine 50/135mg 3 tablet 25 blister",
+  "stockin": "210",
+  "stockout": "88",
+  "expirydate": "2018-02-22",
+  "unitprice": "$1233t",
+  "total": "$12345"
+},
+{
+  "hiv": "Artesunate/Amodiaquine 50/135mg 3 tablet 25 blister",
+  "stockin": "101",
+  "stockout": "90",
+  "expirydate": "2028-02-22",
+  "unitprice": "$1233t",
+  "total": "$12345"
+},
+{
+  "hiv": "Artesunate/Amodiaquine 100/270mg 3 tablet 25 blister",
+  "stockin": "93",
+  "stockout": "29",
+  "expirydate": "2018-02-22",
+  "unitprice": "$1233t",
+  "total": "$12345"
+},
+
+{
+  "hiv": "Artesunate/Amodiaquine 100/270mg 6 tablet 25 blister",
+  "stockin": "114",
+  "stockout": "88",
+  "expirydate": "2021-09-22",
+  "unitprice": "$1233",
+  "total": "$12345"
+}
+]

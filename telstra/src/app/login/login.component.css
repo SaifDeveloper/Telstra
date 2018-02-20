@@ -1,0 +1,64 @@
+
+/* .main-content{ max-width: 1020px; margin: auto; padding: 90px 0; overflow: hidden; }
+
+.left-column{ float: left; max-width: 460px; } 
+.logo h1 a{ background:url("/assets/logo.png") 0 0 no-repeat; overflow: hidden; width: 270px; height: 0px; padding-top: 74px; display: block; margin-bottom: 30px; }
+.left-column h2{ color:#fff; font-size: 30px; line-height: 45px; font-family: arial; font-weight: normal; margin-bottom: 34px; }
+.left-column p{ margin-bottom: 40px; color: #fff; font-size: 18px; line-height: 30px; font-family: arial; } 
+.left-column ul { margin:0 0 0 20px; }
+.left-column ul li{ float: left; margin-right: 30px; font-size: 18px; list-style: disc; line-height: 30px; font-family: arial; }
+.left-column ul li a{ color:#fff; text-decoration: none; }
+
+.login-form { background: url("/assets/form-corner.png") 100% 0 no-repeat; padding-top: 137px; max-width: 410px; float: right; }
+.login-form .form{ background-color: #eeeeee; padding:30px 25px 50px; width: 360px; border-radius:0px 0px 10px 10px; -moz-border-radius:10px; -webkit-border-radius:0px 0px 10px 10px; -ms-border-radius:0px 0px 10px 10px; -o-border-radius:0px 0px 10px 10px; }
+.login-form .form .form-heading{ margin-top:-130px; position: relative; }
+.login-form .form .form-heading h2{ margin-bottom: 0; font-size:30px; color: #3a4750; font-weight: normal; font-family: arial; }
+.login-form .form .form-heading h2 span{ color:#ea9215; display: block; }
+.login-form .form .form-feilds { border-bottom:1px solid #3a4750;  }
+.login-form .form input{ background:none; border: 0; font-size: 20px; width: 93%; line-height: 50px; }
+.login-form .form p small{ display: block; text-align: right; font-size: 12px; font-family: arial; }
+.login-form .form p small a{ text-decoration: none; color:#7f878d; }
+
+.login-form .form button{ margin-bottom: 10px; background:#ea9215; display: block; color:#fff; border:0; line-height: 42px; text-align: center; font-size: 18px; width: 100%; box-shadow: 0px 7px  6px #eccea2; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; letter-spacing: 5px; }
+.login-form .form p.register{  color:#7f878d; font-size: 12px; font-family: arial; }
+.roledp{width: 99%;
+    background: #eee;
+    height: 37px;
+    margin-top: 10px;
+    font-size: 15px;} */
+
+
+
+    .main-content{ max-width: 1500px; margin: auto; padding: 50px 0; overflow: hidden; }
+    
+        .left-column{ float: left; max-width: 460px; } 
+        .logo h1 a{ 
+            background:url("/assets/tgflogo.png") 0 0 no-repeat;
+             overflow: hidden; width: 358px; 
+             height: 0px; 
+             padding-top: 100px; 
+             display: block; 
+             margin-bottom: 30px;
+    
+    
+    
+            }
+    
+    
+        .login-form { max-width: 410px; float: right; }
+        .login-form .form{ width: 360px;  }
+        .login-form .form .form-heading h2{ margin-bottom: 0; font-size:30px; color: #4f3542; font-weight: normal; font-family: arial; }
+        .login-form .form select{ 
+            border:0; 
+            background:transparent; 
+            width:100%; font-size: 20px; 
+            line-height: 50px; padding:10px 0px;}
+        .login-form .form .form-feilds, .login-form .form select { border-bottom:1px solid #4f3542;  }
+        .login-form .form input{ background:none; border: 0; font-size: 20px; width: 93%; line-height: 50px; color:#4f3542; }
+        .login-form .form input::placeholder, select{ color:#4f3542; }
+    
+        .login-form .form p small{ display: block; text-align: right; font-size: 12px; font-family: arial; }
+        .login-form .form p small a{ text-decoration: none; color:#4f3542; }
+    
+        .login-form .form button{ margin-bottom: 10px; background:#4f3542; display: block; color:#fff; border:0; line-height: 42px; text-align: center; font-size: 18px; width: 100%; box-shadow: 0px 7px  6px #4f3542; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; letter-spacing: 5px; }
+        .login-form .form p.register{  color:#4f3542; font-size: 12px; font-family: arial; } 

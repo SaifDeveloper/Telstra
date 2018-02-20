@@ -1,0 +1,35 @@
+
+<div class=" main-content"> 
+  <div class="left-column">
+    <div class="logo">
+        <!-- <img src="/assets/bclogo3.png"> -->
+    </div>
+
+  </div>
+<div class="login-form">
+    <!-- <h3><img src="/assets/tgflogo.png"></h3>  -->
+  <form action="" method="post">
+
+    <div class="form">
+
+      <div class="form-heading">
+
+        <h2>Login</h2></div>
+    <p>
+<select name="role" class="role_style roledp" [(ngModel)]="role"> 
+<option  value="" hidden><span>Select Role</span></option>
+<option *ngFor="let option of roles" [ngValue]="option">{{option}}</option>
+</select>
+<p class="form-feilds"><input type="text"  [(ngModel)]="username" class="login_txtbox" placeholder="Username" name="userName" ng-minlength="2" ng-maxlength="15" placeholder="Username"></p>
+<p class="form-feilds"><input type="password" class="login_txtbox" [(ngModel)]="password" placeholder="Password" id="password" ng-minlength="2" ng-maxlength="15" name="password"></p>
+<p><small><a href="javascript:void(0)"></a></small></p>
+<p><button type="submit" name="" (click)="Login()">Login</button></p>
+<p class="register"></p>
+    </div>
+  </form>
+</div>
+</div>  
+
+         
+       
+

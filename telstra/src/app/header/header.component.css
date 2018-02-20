@@ -1,0 +1,45 @@
+.container{
+    background-color:rgba(246, 220, 205, 0.76);
+    width: 1250px;
+     padding:0px;
+}
+
+.container h1 a{ 
+    background:url("/assets/tgflogo.png") 0 0 no-repeat; 
+    overflow: hidden; 
+    width: 358px; 
+    height: 100px; 
+    padding-top: 50px; 
+    display: block; 
+    margin-bottom: 30px; 
+    border-color:brown;
+} 
+.image{
+    text-align: center;
+}
+
+h2{
+    color: #4f3542;
+    margin-left: 50px
+}
+.imag{
+  float: left;  
+}
+.image{
+    
+    margin-top:36px;
+    
+    float: right;
+    margin-right: 30px;;
+    text-align: center;
+   font-size: 15px;
+    color: black;
+}
+.ab
+{
+    position: absolute;
+    top:60px;
+    text-align: center;
+    color:black;
+} 
+.left-column{ float: left; max-width: 460px; }  

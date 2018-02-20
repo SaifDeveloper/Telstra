@@ -1,0 +1,16 @@
+.graph {
+    display: block;
+    /* eight: 400px; */
+    width: 700px;
+    margin-left: 300px;
+}
+.graph1 {
+    display: block;
+    height: 400px;
+    width: 550px;
+
+}
+.container{
+    width: 1300px;
+    background-color: white;
+} 
