@@ -1,0 +1,14 @@
+.scrollxy{
+  overflow-x: auto;
+  overflow-y: auto;
+}
+h3{
+  font-family:lato Medium;
+  font-size:18px;
+  color:#AA0014;
+}
+th{
+  background-color: #AA0014;
+  color: #FFFFFF;
+  font-family:lato Medium;
+}

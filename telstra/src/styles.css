@@ -1,10 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
-body{ 
-    background-size: cover; 
-    background-color: #000; 
-    background-image: url("/assets/background.jpg"); 
-    background-position: 0 0; 
-    background-repeat: no-repeat; 
+body{
+    background-size: cover;
+    background-color: #000;
+    /*background-image: url("/assets/background.jpg"); */
+    background-position: 0 0;
+    background-repeat: no-repeat;
 }
 .mhead
 {
@@ -19,7 +19,7 @@ body{
 {
     float:right;
 }
-.left 
+.left
 {
     float: left;
 }
@@ -42,399 +42,399 @@ body{
 .pointer {
     cursor: pointer;
   }
-  
+
   .margin-left-0 {
     margin-left: 0px;
   }
-  
+
   .margin-left-xxs {
     margin-left: 8px;
   }
-  
+
   .margin-left-xs {
     margin-left: 12px;
   }
-  
+
   .margin-left-s {
     margin-left: 16px;
   }
-  
+
   .margin-left-m {
     margin-left: 20px;
   }
-  
+
   .margin-left-l {
     margin-left: 24px;
   }
-  
+
   .margin-left-xl {
     margin-left: 32px;
   }
-  
+
   .margin-left-xxl {
     margin-left: 40px;
   }
-  
+
   .margin-left-3xl {
     margin-left: 48px;
   }
-  
+
   .margin-left-4xl {
     margin-left: 64px;
   }
-  
+
   .margin-left-5xl {
     margin-left: 72px;
   }
-  
+
   .margin-left-6xl {
     margin-left: 96px;
   }
-  
+
   .margin-right-0 {
     margin-right: 0px;
   }
-  
+
   .margin-right-xxs {
     margin-right: 8px;
   }
-  
+
   .margin-right-xs {
     margin-right: 12px;
   }
-  
+
   .margin-right-s {
     margin-right: 16px;
   }
-  
+
   .margin-right-m {
     margin-right: 20px;
   }
-  
+
   .margin-right-l {
     margin-right: 24px;
   }
-  
+
   .margin-right-xl {
     margin-right: 32px;
   }
-  
+
   .margin-right-xxl {
     margin-right: 40px;
   }
-  
+
   .margin-right-3xl {
     margin-right: 48px;
   }
-  
+
   .margin-right-4xl {
     margin-right: 64px;
   }
-  
+
   .margin-right-5xl {
     margin-right: 72px;
   }
-  
+
   .margin-right-6xl {
     margin-right: 96px;
   }
-  
+
   .margin-top-0 {
     margin-top: 0px;
   }
-  
+
   .margin-top-xxs {
     margin-top: 8px;
   }
-  
+
   .margin-top-xs {
     margin-top: 12px;
   }
-  
+
   .margin-top-s {
     margin-top: 16px;
   }
-  
+
   .margin-top-m {
     margin-top: 20px;
   }
-  
+
   .margin-top-l {
     margin-top: 24px;
   }
-  
+
   .margin-top-xl {
     margin-top: 32px;
   }
-  
+
   .margin-top-xxl {
     margin-top: 40px;
   }
-  
+
   .margin-top-3xl {
     margin-top: 48px;
   }
-  
+
   .margin-top-4xl {
     margin-top: 64px;
   }
-  
+
   .margin-top-5xl {
     margin-top: 72px;
   }
-  
+
   .margin-top-6xl {
     margin-top: 96px;
   }
-  
+
   .margin-bottom-0 {
     margin-bottom: 0px;
   }
-  
+
   .margin-bottom-xxs {
     margin-bottom: 8px;
   }
-  
+
   .margin-bottom-xs {
     margin-bottom: 12px;
   }
-  
+
   .margin-bottom-s {
     margin-bottom: 16px;
   }
-  
+
   .margin-bottom-m {
     margin-bottom: 20px;
   }
-  
+
   .margin-bottom-l {
     margin-bottom: 24px;
   }
-  
+
   .margin-bottom-xl {
     margin-bottom: 32px;
   }
-  
+
   .margin-bottom-xxl {
     margin-bottom: 40px;
   }
-  
+
   .margin-bottom-3xl {
     margin-bottom: 48px;
   }
-  
+
   .margin-bottom-4xl {
     margin-bottom: 64px;
   }
-  
+
   .margin-bottom-5xl {
     margin-bottom: 72px;
   }
-  
+
   .margin-bottom-6xl {
     margin-bottom: 96px;
   }
-  
+
   .padding-0 {
     padding: 0px;
   }
-  
+
   .padding-xxs {
     padding: 8px;
   }
-  
+
   .padding-xs {
     padding: 12px;
   }
-  
+
   .padding-s {
     padding: 16px;
   }
-  
+
   .padding-m {
     padding: 20px;
   }
-  
+
   .padding-l {
     padding: 24px;
   }
-  
+
   .padding-xl {
     padding: 32px;
   }
-  
+
   .padding-xxl {
     padding: 40px;
   }
-  
+
   .padding-3xl {
     padding: 48px;
   }
-  
+
   .padding-4xl {
     padding: 64px;
   }
-  
+
   .padding-5xl {
     padding: 72px;
   }
-  
+
   .padding-6xl {
     padding: 96px;
   }
-  
+
   .padding-left-0 {
     padding-left: 0px;
   }
-  
+
   .padding-left-xxs {
     padding-left: 8px;
   }
-  
+
   .padding-left-xs {
     padding-left: 12px;
   }
-  
+
   .padding-left-s {
     padding-left: 16px;
   }
-  
+
   .padding-left-m {
     padding-left: 20px;
   }
-  
+
   .padding-left-l {
     padding-left: 24px;
   }
-  
+
   .padding-left-xl {
     padding-left: 32px;
   }
-  
+
   .padding-left-xxl {
     padding-left: 40px;
   }
-  
+
   .padding-left-3xl {
     padding-left: 48px;
   }
-  
+
   .padding-left-4xl {
     padding-left: 64px;
   }
-  
+
   .padding-left-5xl {
     padding-left: 72px;
   }
-  
+
   .padding-left-6xl {
     padding-left: 96px;
   }
-  
+
   .padding-right-0 {
     padding-right: 0px;
   }
-  
+
   .padding-right-xxs {
     padding-right: 8px;
   }
-  
+
   .padding-right-xs {
     padding-right: 12px;
   }
-  
+
   .padding-right-s {
     padding-right: 16px;
   }
-  
+
   .padding-right-m {
     padding-right: 20px;
   }
-  
+
   .padding-right-l {
     padding-right: 24px;
   }
-  
+
   .padding-right-xl {
     padding-right: 32px;
   }
-  
+
   .padding-right-xxl {
     padding-right: 40px;
   }
-  
+
   .padding-right-3xl {
     padding-right: 48px;
   }
-  
+
   .padding-right-4xl {
     padding-right: 64px;
   }
-  
+
   .padding-right-5xl {
     padding-right: 72px;
   }
-  
+
   .padding-right-6xl {
     padding-right: 96px;
   }
-  
+
   .padding-top-0 {
     padding-top: 0px;
   }
-  
+
   .padding-top-xxs {
     padding-top: 8px;
   }
-  
+
   .padding-top-xs {
     padding-top: 12px;
   }
-  
+
   .padding-top-s {
     padding-top: 16px;
   }
-  
+
   .padding-top-m {
     padding-top: 20px;
   }
-  
+
   .padding-top-l {
     padding-top: 24px;
   }
-  
+
   .padding-top-xl {
     padding-top: 32px;
   }
-  
+
   .padding-top-xxl {
     padding-top: 40px;
   }
-  
+
   .padding-top-3xl {
     padding-top: 48px;
   }
-  
+
   .padding-top-4xl {
     padding-top: 64px;
   }
-  
+
   .padding-top-5xl {
     padding-top: 72px;
   }
-  
+
   .padding-top-6xl {
     padding-top: 96px;
   }
-  
+
   .padding-bottom-0 {
     padding-bottom: 0px;
   }
-  
+
   .padding-bottom-xxs {
     padding-bottom: 8px;
   }
-  
+
   .padding-bottom-xs {
     padding-bottom: 12px;
     width:1250px;
@@ -443,40 +443,39 @@ body{
     padding-bottom: 12px;
     width:1150px;
   }
-  
+
   .padding-bottom-s {
     padding-bottom: 16px;
   }
-  
+
   .padding-bottom-m {
     padding-bottom: 20px;
   }
-  
+
   .padding-bottom-l {
     padding-bottom: 24px;
   }
-  
+
   .padding-bottom-xl {
     padding-bottom: 32px;
   }
-  
+
   .padding-bottom-xxl {
     padding-bottom: 40px;
   }
-  
+
   .padding-bottom-3xl {
     padding-bottom: 48px;
   }
-  
+
   .padding-bottom-4xl {
     padding-bottom: 64px;
   }
-  
+
   .padding-bottom-5xl {
     padding-bottom: 72px;
   }
-  
+
   .padding-bottom-6xl {
     padding-bottom: 96px;
   }
-  

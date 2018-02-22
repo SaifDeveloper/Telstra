@@ -10,6 +10,10 @@ import { AssetreviewComponent } from './assetreview/assetreview.component';
 import { AssetreviewxComponent } from './assetreviewx/assetreviewx.component';
 import {FileuploadComponent} from "./fileupload/fileupload.component";
 import {AccrComponent} from "./accr/accr.component";
+import {ProjectdesComponent} from "./projectdes/projectdes.component";
+import {AssetrvwComponent} from "./assetrvw/assetrvw.component";
+import {ArComponent} from "./ar/ar.component";
+
 
 
 export const AppRoutes:Routes = [
@@ -24,7 +28,10 @@ export const AppRoutes:Routes = [
         path: "Main",
         component:MainComponent
     },
-
+  {
+    path:'ar',
+    component:ArComponent
+  },
 
     {
 
@@ -51,6 +58,14 @@ export const AppRoutes:Routes = [
   {
     path:'accr',
     component:AccrComponent
+  },
+  {
+    path:'prodes',
+    component:ProjectdesComponent
+  },
+  {
+    path:'assetrvw',
+    component:AssetrvwComponent
   }
 
 

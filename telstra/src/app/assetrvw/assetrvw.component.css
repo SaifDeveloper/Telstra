@@ -1,0 +1,265 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+@media(min-width:768px) {
+  body {
+    margin-top: 50px;
+  }
+  /*html, body, #wrapper, #page-wrapper {height: 100%; overflow: hidden;}*/
+}
+
+#wrapper {
+  padding-left: 0;
+  overflow: hidden;
+  margin-left: -115px;
+  height:1500px;
+}
+
+#page-wrapper {
+  width: 70%;
+  height:100%;
+  padding: 0;
+  background-color: white;
+  margin-left:145px;
+  margin-top: 60px;
+}
+
+@media(min-width:768px) {
+  #wrapper {
+    padding-left: 225px;
+    background-color: white;
+  }
+
+  #page-wrapper {
+    padding: 22px 10px;
+    margin-left: 90px;
+  }
+}
+
+/* Top Navigation */
+
+.top-nav {
+  padding: 0 15px;
+}
+
+.top-nav>li {
+  display: inline-block;
+  float: left;
+}
+
+.top-nav>li>a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 20px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.top-nav>li>a:hover,
+.top-nav>li>a:focus,
+.top-nav>.open>a,
+.top-nav>.open>a:hover,
+.top-nav>.open>a:focus {
+  color: #fff;
+  background-color: white;
+}
+
+.top-nav>.open>.dropdown-menu {
+  float: left;
+  position: absolute;
+  margin-top: 0;
+  /*border: 1px solid rgba(0,0,0,.15);*/
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: #fff;
+  -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.top-nav>.open>.dropdown-menu>li>a {
+  white-space: normal;
+}
+
+/* Side Navigation */
+
+@media(min-width:768px) {
+  .side-nav {
+    position: fixed;
+    top: 60px;
+    left: 225px;
+    width: 225px;
+    margin-left: -225px;
+    border: none;
+    border-radius: 0;
+    border-top: 1px rgba(0,0,0,.5) solid;
+    overflow-y: auto;
+    background-color: #FF8700;
+    /*background-color: #5A6B7D;*/
+    bottom: 0;
+    overflow-x: hidden;
+    padding-bottom: 40px;
+  }
+
+  .side-nav>li>a {
+    width: 225px;
+    border-bottom: 1px #fff solid;
+    font-size: 14px;
+    color:#AA0014;
+  }
+
+  .side-nav li a:hover,
+  .side-nav li a:focus {
+    outline: none;
+    background-color: #AA0014 !important;
+    color: white;
+  }
+  .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #AA0014;
+    background-color: #FF8700;
+  }
+}
+
+.side-nav>li>ul {
+  padding: 0;
+  border-bottom: 1px rgba(0,0,0,.3) solid;
+}
+
+.side-nav>li>ul>li>a {
+  display: block;
+  padding: 10px 15px 10px 38px;
+  text-decoration: none;
+  /*color: #999;*/
+  color: #fff;
+}
+
+.side-nav>li>ul>li>a:hover {
+  color: #fff;
+}
+
+.navbar .nav > li > a > .label {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+  top: 14px;
+  right: 6px;
+  font-size: 10px;
+  font-weight: normal;
+  min-width: 15px;
+  min-height: 15px;
+  line-height: 1.0em;
+  text-align: center;
+  padding: 2px;
+}
+.logo{
+  margin-left: -645px;
+  display: block;
+  margin-top: -16px;
+  height: 56px;
+}
+.fa{
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 25px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+
+.navbar .nav > li > a:hover > .label {
+  top: 10px;
+}
+
+.navbar-brand {
+  padding: 5px 15px;
+}
+.row{
+
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  height: 37px;
+  background-color: white22;
+}
+.vl {
+  border-left: 1px solid white;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  height:180px;
+  margin-top:12px;
+}
+.row.vdivide [class*='col-']:not(:last-child):after {
+  background: #e0e0e0;
+  width: 1px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:-70px;
+  bottom: 50px;
+  right: 0;
+  height: 150px;
+}
+label
+{
+  font-family:lato;
+  color:#AA0014;
+
+}
+.input2{
+  width:100%;
+  border: 1px;
+}
+.input1{
+  width: 50%;
+}
+.title{
+  width: 100%;
+  background-color: #EBEBEB;
+}
+.btn{
+  float: right;
+  border-radius:40px;
+  width: 140px;
+  background-color: #AA0014;
+  border-color: #AA0014;
+  color: white;
+  padding: 7px 12px;
+}
+h3{
+  font-family:lato Medium;
+  font-size:18;
+  color:#AA0014;
+}
+.hr{
+  border:1px;
+  color:#C6C6C6
+}
+input{
+  background-color: #EBEBEB
+}
+.formwidth{
+  width: 215%;
+}
+
+.textboxwidth{
+  width: 70%;
+}
+.chklist{
+  margin-left: 76%;
+  margin-top: 0%;
+  font-size: 16px;
+}
+.checkbox label{
+  padding-bottom: 10px;
+  /*width: 50%;*/
+  width: 79%;
+  margin-top: 5px;
+}
+.chkbox {
+  margin-left: 20px;
+  margin-top: 75px;
+  font-size: 16px;
+}

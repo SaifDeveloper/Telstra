@@ -11,9 +11,6 @@ import * as $ from 'jquery';
 export class MainComponent implements OnInit {
 creatpo=false;role;makepay=false;procurement=false;warehouse=false;distribute=false;enduser=false;globalfund=false;sel:string;buttonDisabled=true;
 hidetab;gf;pa;eu;wh;da;creatgrn=false;graphs=false;design=false;asset=false;construction=false;
-
-
-
 constructor(private http: Http, private router: Router) {
 
     this.role = localStorage.getItem("role");
@@ -22,48 +19,48 @@ constructor(private http: Http, private router: Router) {
       this.sel="test1"
       this.graphs=true;
     }
-    if (this.role == "Designer")
+    if (this.role == "Designer") 
     {
       this.design=true;
     this.gf="hidetab";
   this.wh="hidetab";
   this.da="hidetab";
-   this.eu="hidetab";
-
+   this.eu="hidetab"; 
+   
     }
-   else if (this.role == "Asset Manager")
+   else if (this.role == "Asset Manager") 
       {
         this.asset=true;
         this.gf="hidetab";
       this.pa="hidetab";
     this.da="hidetab";
-     this.eu="hidetab";
-
+     this.eu="hidetab"; 
+     
       }
-     else if (this.role == "Network Constructor")
+     else if (this.role == "Network Constructor") 
         {
           this.construction=true;
           this.gf="hidetab";
         this.pa="hidetab";
       // this.wh="hidetab";
-       this.eu="hidetab";
-
+       this.eu="hidetab"; 
+      
         }
-       else if (this.role == "Clinic's"||this.role =="DHO's"||this.role =="Health Centers")
+       else if (this.role == "Clinic's"||this.role =="DHO's"||this.role =="Health Centers") 
           {
             this.gf="hidetab";
           this.pa="hidetab";
         this.wh="hidetab";
         this.da="hidetab";
-
+         
           }
-
-
+    
+    
    }
 
   ngOnInit() {
   }
-
+  
   private _prevSelected: any;
   // handleChange(evt) {
   //   var target = evt.target;
@@ -78,23 +75,23 @@ constructor(private http: Http, private router: Router) {
   progressbar(){
     console.log("haiii")
     $('.radiotxt').val("");
-    $('.radiotxt').prop('disabled', true);
-    this.flag='N';
+    $('.radiotxt').prop('disabled', true); 
+    this.flag='N'; 
     console.log("endd")
   }
   Logout(){
     this.router.navigateByUrl('');
-  }
+  } 
   createpo(){
     this.router.navigateByUrl('pm');
-  }
+  } 
   creategrn(){
     this.router.navigateByUrl('grn');
-  }
+  } 
   Toggle()
   {
     this.router.navigateByUrl('graphs');
-
+    
   }
   Design()
   {
@@ -104,6 +101,6 @@ constructor(private http: Http, private router: Router) {
     this.router.navigateByUrl('assetreviewx')
   }
   Constr(){
-    this.router.navigateByUrl('constructor')
+    this.router.navigateByUrl('constructor') 
   }
 }

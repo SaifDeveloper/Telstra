@@ -25,6 +25,9 @@ import { FileuploadComponent } from './fileupload/fileupload.component';
 import { FileSelectDirective, FileDropDirective } from 'ng2-file-upload';
 import {FileuploadService} from "./fileupload.service";
 import { AccrComponent } from './accr/accr.component';
+import { ProjectdesComponent } from './projectdes/projectdes.component';
+import { AssetrvwComponent } from './assetrvw/assetrvw.component';
+import { ArComponent } from './ar/ar.component';
 
 
 @NgModule({
@@ -52,7 +55,13 @@ import { AccrComponent } from './accr/accr.component';
 
 FileSelectDirective,
 
-AccrComponent
+AccrComponent,
+
+ProjectdesComponent,
+
+AssetrvwComponent,
+
+ArComponent
   ],
   imports: [
     BrowserModule,
