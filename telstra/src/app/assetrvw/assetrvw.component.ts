@@ -25,165 +25,167 @@ export class AssetrvwComponent implements OnInit {
     this.getdata.getData().subscribe(
       (data) => {
         console.log(data);
-        if(data[0].notes=="No")
+        if(data[0].hasOwnProperty("notes"))
         {
+          console.log("notes !")
           this.notes=false;
         }else {
           this.notes=true;
+          console.log("no notes !")
         }
-        if(data[0].unallocated=="No")
+        if(data[0].hasOwnProperty("unallocated"))
         {
           this.unallocated=false;
         }else{
           this.unallocated=true;
         }
-        if(data[0].Costsheet=="No")
+        if(data[0].hasOwnProperty("Costsheet"))
         {
           this.Costsheet=false;
         }else{
           this.Costsheet=true;
         }
-        if(data[0].Assetstatus=="No")
+        if(data[0].hasOwnProperty("Assetstatus"))
         {
           this.Assetstatus=false;
         }else{
           this.Assetstatus=true;
         }
-        if(data[0].CAPEX=="No")
+        if(data[0].hasOwnProperty("CAPEX"))
         {
           this.CAPEX=false;
         }else{
           this.CAPEX=true;
         }
-        if(data[0].Materialdetails=="No")
+        if(data[0].hasOwnProperty("Materialdetails"))
         {
           this.Materialdetails=false;
         }else {
           this.Materialdetails=true;
         }
-        if(data[0].DBORS=="No")
+        if(data[0].hasOwnProperty("DBORS"))
         {
           this.DBORS=false;
         }else{
           this.DBORS=true;
         }
-        if(data[0].Activitytype=="No")
+        if(data[0].hasOwnProperty("Activitytype"))
         {
           this.Activitytype=false;
         }else{
           this.Activitytype=true;
         }
-        if(data[0].Transferdetails=="No")
+        if(data[0].hasOwnProperty("Transferdetails"))
         {
           this.Transferdetails=false;
         }else {
           this.Transferdetails=true;
         }
-        if(data[0].ItemMapping=="No")
+        if(data[0].hasOwnProperty("ItemMapping"))
         {
 
           this.ItemMapping=false;
         }else {
           this.ItemMapping=true;
         }
-        if(data[0].Missinginformation=="No")
+        if(data[0].hasOwnProperty("Missinginformation"))
         {
           console.log("Missing Info is NO")
           this.Missinginformation=false;
         }else {
           this.Missinginformation=true;
         }
-        if(data[0].NDPM=="No")
+        if(data[0].hasOwnProperty("NDPM"))
         {
           this.NDPM=false;
         }else{
           this.NDPM=true;
         }
-        if(data[0].LIC=="No")
+        if(data[0].hasOwnProperty("LIC"))
         {
           this.LIC=false;
         }else {
           this.LIC=true;
         }
-        if(data[0].PropertyLease=="No")
+        if(data[0].hasOwnProperty("PropertyLease"))
         {
           this.PropertyLease=false;
         }else {
           this.PropertyLease=true;
         }
-        if(data[0].Login=="No")
+        if(data[0].hasOwnProperty("Login"))
         {
           this.Login=false;
         }else {
           this.Login=true;
         }
-        if(data[0].IPaCassetmodule=="No")
+        if(data[0].hasOwnProperty("IPaCassetmodule"))
         {
           this.IPaCassetmodule=false;
         }else {
           this.IPaCassetmodule=true;
         }
-        if(data[0].IPaCordersummary=="No")
+        if(data[0].hasOwnProperty("IPaCordersummary"))
         {
           this.IPaCordersummary=false;
         }else {
           this.IPaCordersummary=true
         }
-        if(data[0].Reviewprojectbrief=="No")
+        if(data[0].hasOwnProperty("Reviewprojectbrief"))
         {
           this.Reviewprojectbrief=false;
         }else {
           this.Reviewprojectbrief=true;
         }
-        if(data[0].Portfolio=="No")
+        if(data[0].hasOwnProperty("Portfolio"))
         {
           this.Portfolio=false;
         }else {
           this.Portfolio=true;
         }
-        if(data[0].equipmentcodes=="No")
+        if(data[0].hasOwnProperty("equipmentcodes"))
         {
           this.equipmentcodes=false;
         }else {
           this.equipmentcodes=true;
         }
-        if(data[0].UpdateActivity=="No")
+        if(data[0].hasOwnProperty("UpdateActivity"))
         {
           this.UpdateActivity=false;
         }else {
           this.UpdateActivity=true;
         }
-        if(data[0].Disposalmethod=="No")
+        if(data[0].hasOwnProperty("Disposalmethod"))
         {
           this.Disposalmethod=false;
         }else {
           this.Disposalmethod=true;
         }
-        if(data[0].FIMValue=="No")
+        if(data[0].hasOwnProperty("FIMValue"))
         {
           this.FIMValue=false;
         }else {
           this.FIMValue=true;
         }
-        if(data[0].Transfer=="No")
+        if(data[0].hasOwnProperty("Transfer"))
         {
           this.Transfer=false;
         }else {
           this.Transfer=true;
         }
-        if(data[0].assetclass=="No")
+        if(data[0].hasOwnProperty("assetclass"))
         {
           this.assetclass=false;
         }else {
           this.assetclass=true;
         }
-        if(data[0].physicalquantity=="No")
+        if(data[0].hasOwnProperty("physicalquantity"))
         {
           this.physicalquantity=false;
         }else {
           this.physicalquantity=true;
         }
-        if(data[0].RFUdate=="No")
+        if(data[0].hasOwnProperty("RFUdate"))
         {
           this.RFUdate=false;
         }else {
